@@ -8,29 +8,21 @@
 hello wold
 </title>
 <script>
- var x ="fuss, fis, fuis, fius";
-function Myfunction(fuss, fis, fuis, fius) {
- document.getElementById('he').innerHTML =fuss;
- document.getElementByID('he').innerHTML =fis;
- document.getElementByID('he').innerHTML =fuis;
- document.getElementByID('he').innerHTML =fius;
-}
  </script>
 </head>
 <body>
 <center> 
  <div>
   <label for="cars">chọn đi</label>
-  <select name="cars" id="cars">
-    <option value="dưa hấu" id="fuss">dưa hấu</option>
-    <option value="chuối" id="fis">chuối</option>
-    <option value="táo" id="fuis">táo</option>
-    <option value="dứa" id="fius">dứa</option>
+  <select name="cars" id="cars" name="calc">
+    <option value="dưa hấu" onclick="document.calc.txt.value ='dưa hấu'">dưa hấu</option>
+    <option value="chuối"  onclick="document.calc.txt.value ='chuối'">chuối</option>
+    <option value="táo"  onclick="document.calc.txt.value ='táo">táo</option>
+    <option value="dứa"  onclick="document.calc.txt.value ='dứa'">dứa</option>
   </select>
   <br><br>
-  <button type="button" onclick="Myfunction()">click me pls</button>
    <br />
-   <h1 id="he">
+   <h1 id="he" readonly class="value" name="txt" >
  trái cây bạn chọn
    </h1>
  </div>
