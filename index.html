@@ -13,8 +13,8 @@ hello wold
 <body>
 <center> 
  <div>
-  <label for="cars">chọn đi</label>
-  <select name="cars" id="cars" name="calc">
+  <form  class="formbit" name="calc">
+  <select>
     <option value="dưa hấu" onclick="document.calc.txt.value ='dưa hấu'">dưa hấu</option>
     <option value="chuối"  onclick="document.calc.txt.value ='chuối'">chuối</option>
     <option value="táo"  onclick="document.calc.txt.value ='táo">táo</option>
@@ -22,9 +22,9 @@ hello wold
   </select>
   <br><br>
    <br />
-   <h1 id="he" readonly class="value" name="txt" >
- trái cây bạn chọn
-   </h1>
+  <input
+    id="he" type="text" readonly class="value" name="txt" >
+ </form>
  </div>
  </center>
 </body>
