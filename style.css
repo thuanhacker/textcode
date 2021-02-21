@@ -11,6 +11,12 @@ background-color: gray;
   animation: 
     runcode 5s ease infinity alternate
 }
+body{ 
+ display: flex;
+ text-items: center;
+ jutify-content: center;
+}
+
 @keyframes runcode{
   50%,25%{
    background-color: red;
