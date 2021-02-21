@@ -1,5 +1,21 @@
+html, body{
+ padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
 .animation{
   width: 100px;
   height: 300px;
 background-color: gray;
+  position: relative;
+  animation: 
+    runcode 5s ease infinity alternate
+}
+@keyframes runcode{
+  50%,25%{
+   background-color: red;
+  }
+  100%{
+  background-color: black;
+  }
 }
