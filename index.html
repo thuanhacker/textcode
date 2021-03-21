@@ -35,12 +35,7 @@ web thú vị
 	</style>
 	<script>
 	function myfunction(){
-	 var x = document.createElement("IMG");
- 	 x.setAttribute("src", "https://i.pinimg.com/originals/18/73/d5/1873d5f74eeed3a37e67cb19026d196a.jpg");
-	 x.setAttribute("width", "75%");
-	 x.setAttribute("height", "100%");
- 	 x.setAttribute("alt", "The Pulpit Rock");
-  	document.body.appendChild(x);
+	document.getElementById("divw").innerHTML ="<img src=\'https://domain.com/adv/banner.jpg\' width=\'400px\' height=\'150px\'>";
   	document.getElementById("h11").innerHTML="yêu quỳnh";
 	}
 	</script>
@@ -51,6 +46,7 @@ web thú vị
 			<button type="" name="" onclick="myfunction()">
 				click me pls
 				</button>
+			<div id="divw"></div>
 			<h1 id="h11">
 				click button
 			</h1>
