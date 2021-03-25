@@ -16,3 +16,9 @@ con.connect(function(err) {
     console.log("Database created");
   });
 });
+con.query("CREATE DATABASE [IF NOT EXISTS] database_name
+[CHARACTER SET charset_name]
+[COLLATE collation_name]", function (err, result) {
+    if (err) throw err;
+    console.log("Database created");
+  });
