@@ -1,4 +1,9 @@
-var mysql = require('mysql');
+<! DOCTYPE html>
+  <head>
+  </head>
+<body>
+  <pre>
+  var mysql = require('mysql');
 //Khởi tao kết nối với MySQL Server
 var con = mysql.createConnection({
   host: "localhost",
@@ -22,3 +27,5 @@ con.query("CREATE DATABASE [IF NOT EXISTS] database_name
     if (err) throw err;
     console.log("Database created");
   });
+</pre>
+</body>
